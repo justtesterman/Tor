@@ -1,5 +1,5 @@
-ClientTransportPlugin obfs2,obfs3,obfs4,scramblesuit exec <path ...>\Tor\PluggableTransports\obfs4proxy.exe
-Bridge obfs4 <address ...>
-Bridge obfs4 <address ...>
-Bridge obfs4 <address ...>
+ClientTransportPlugin obfs2,obfs3,obfs4,scramblesuit exec .\obfs4proxy.exe
+Bridge obfs4 132.145.234.151:7070 7D31AEBA2628BAE75B3A33DEA42F563540615004 cert=LrjveRhYS89GHRJym1yUVxCYep2z0lH3GtjspJNmQoJZcnQlrZAQ6CSAzXzzGCI8d18rBg iat-mode=0
+Bridge obfs4 178.170.13.104:3478 600471A28C6CCCF1AD4CC08A74FC4CFFB30D55C1 cert=OptUBEQ8gNNa+Ow1EiOgysL0VRMIKFCOBs3ULshwNuNC3oJ3yZJtisRR6eDKL/iyXacvMg iat-mode=0
+Bridge obfs4 45.67.14.214:9832 863B4674966EA2449ED8DDEE3FCC03FDA98F78C5 cert=mKPxqeDUuy7DgSBanu93hZLhNmN0aLox1UEJWC6Od1t+bAzZubzbqA9foGUojEdcHdlBdQ iat-mode=0
 UseBridges 1
