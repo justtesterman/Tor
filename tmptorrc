@@ -1,0 +1,5 @@
+ClientTransportPlugin obfs2,obfs3,obfs4,scramblesuit exec <path ...>\Tor\PluggableTransports\obfs4proxy.exe
+Bridge obfs4 <address ...>
+Bridge obfs4 <address ...>
+Bridge obfs4 <address ...>
+UseBridges 1
